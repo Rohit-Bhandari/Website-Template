@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+        <!--Nav BAr-->
+        <section id="nav-bar">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"><img src="joker1.jpg"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#top">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#about">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#services">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#team" tabindex="-1" aria-disabled="true">OUR TEAM</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="#price" tabindex="-1" aria-disabled="true">PRICE PLANS</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="#testimonials" tabindex="-1" aria-disabled="true">TESTIMONIALS</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">CONTACT</a>
+                            </li>
+                          </ul>
+                        </div>
+                </nav>
+        </section>
+            <!----SLIDER----->
+            <div id="slider">
+                    <div id="headerSlider" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                              <li data-target="#headerSlider" data-slide-to="1"></li>
+                              <li data-target="#headerSlider" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="bg1.jpg" class="d-block img-fluid">
+                                    <div class="carousel-caption">
+                                        <h5>Welcome To Clownlee's Arena</h5>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="3.jpeg" class="d-block img-fluid">
+                                    <div class="carousel-caption">
+                                        <h5>First Website</h5>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="bgn1.jpeg" class="d-block img-fluid">
+                                    <div class="carousel-caption">
+                                        <h5>Super Excited!</h5>
+                                    </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                    </div>
+
+            </div>
+            <!--about-->
+            <section id="about">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <div class="about-content">
+                      A B2C company, Salemtown Board Co. was started by two brothers with a passion for handmade skateboards.The video at the top of the page (see below) shows the duo and their two employees building and painting the skateboards, people enjoying them in the community, and talking about what the brand means to them.
+                    </div>
+                      <button type="button" class="btn btn-primary">Read more>>
+                      </button>
+                  </div>
+                  <div class="col-md-6 skills-bar">
+                    <p>HTML</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                    <p>Adobe Photoshop</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 75%;">55%</div>
+                    </div>
+                    <p>JavaScript</p>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 50%;">45%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--section-->
+            <section id="services">
+              <div class="container">
+                <h1>Our Services</h1>
+                <div class="row services">
+                  <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-desktop"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p> A B2C company, Salemtown Board Co. was started by two brothers with great passion.</p>
+                  </div>
+                  <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-tablet"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <p> A B2C company, Salemtown Board Co. was started by two brothers with great passion.</p>
+                  </div>
+                  <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-line-chart"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p> A B2C company, Salemtown Board Co. was started by two brothers with great passion.</p>
+                  </div>
+                  <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-paint-brush"></i>
+                    </div>
+                    <h3>Graphics Design</h3>
+                    <p> A B2C company, Salemtown Board Co. was started by two brothers with great passion.</p>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <!--Team members-->
+            <section id="team">
+              <div class="containers">
+                <h1>Our Team</h1>
+                <div class="row">                 
+                  <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                      <img src="cr7.jpg" class="img-responsive">
+                        <ul>
+                          <a href="https://www.facebook.com/Cristiano/"><li><i class="fa fa-facebook"></i></li></a>
+                          <a href="https://twitter.com/cristiano?lang=en"><li><i class="fa fa-twitter"></i></li></a>
+                          <a href="https://www.instagram.com/cristiano/?hl=en"><li><i class="fa fa-instagram"></i></li></a>
+                        </ul>
+                    </div>
+                      <h2>Cristiano Ronaldo</h2>
+                      <h3>Juventus</h3>
+                      <p>Has scored 700 senior career goals for club and country.</p>
+                  </div>
+                  <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                      <img src="messi.jpg" class="img-responsive">
+                        <ul>
+                          <a href="https://www.facebook.com/leomessi/"><li><i class="fa fa-facebook"></i></li></a>
+                          <a href="https://twitter.com/wearemessi?lang=en"><li><i class="fa fa-twitter"></i></li></a>
+                          <a href="https://www.instagram.com/leomessi/?hl=en"><li><i class="fa fa-instagram"></i></li></a>
+                        </ul>
+                    </div>
+                      <h2>Lionel Messi</h2>
+                      <h3>Barcelona</h3>
+                      <p>All-time highest goalscorer in La Liga: 388</p>
+                  </div>
+                  <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                      <img src="grizzy1.jpg" class="img-responsive">
+                        <ul>
+                          <a href="https://www.facebook.com/antoine.griezmann/"><li><i class="fa fa-facebook"></i></li></a>
+                          <a href="https://twitter.com/antogriezmann?lang=en"><li><i class="fa fa-twitter"></i></li></a>
+                          <a href="https://www.instagram.com/antogriezmann/?hl=en"><li><i class="fa fa-instagram"></i></li></a>
+                        </ul>
+                    </div>
+                      <h2>Antione Griezmann</h2>
+                      <h3>Barcelona</h3>
+                      <p>One of the greatest young talents of this time.</p>
+                  </div>
+                  <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                      <img src="zla1.jpg" class="img-responsive">
+                        <ul>
+                          <a href="https://www.facebook.com/ZlatanIbrahimovic/"><li><i class="fa fa-facebook"></i></li></a>
+                          <a href="https://twitter.com/ibra_official?lang=en"><li><i class="fa fa-twitter"></i></li></a>
+                          <a href="https://www.instagram.com/iamzlatanibrahimovic/?hl=en"><li><i class="fa fa-instagram"></i></li></a>
+                        </ul>
+                    </div>
+                      <h2>Zlatan Ibrahimovic</h2>
+                      <h3>Los Angeles Galaxy</h3>
+                      <p>He was awarded the FIFA Puskas Award for Goal of the Year.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--promo-->
+            <section id="promo">
+              <div class="container">
+                <p>Get Free Domain Name and Web Hoisting</p>
+                <a href="#contact" class="btn btn-primary">Contact Us</a>
+              </div>
+            </section>
+            <!--price plans-->
+          <section id="price">
+            <div class="container">
+              <h1>Price Plans</h1>
+                <div class="row">  
+                  <div class="col-md-3">
+                    <div class="single-price">
+                      <div class="price-head">
+                        <h2>Free</h2>
+                        <p>$0/<span>month</span></p>
+                      </div>
+                      <div class="price-content">
+                        <ul>
+                          <li><i class="fa fa-check-circle"></i>5GB Space</li>
+                          <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                          <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+                          <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+                          <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                        </ul>
+                      </div>
+                      <div class="price-button">
+                        <a class="buy-btn" href="#">Join Free</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="single-price">
+                        <div class="price-head">
+                          <h2>Start-Up</h2>
+                          <p>$10/<span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                          <ul>
+                            <li><i class="fa fa-check-circle"></i>10GB Space</li>
+                            <li><i class="fa fa-check-circle"></i>100GB Bandwidth</li>
+                            <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+                            <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+                            <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                          </ul>
+                        </div>
+                        <div class="price-button">
+                          <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="single-price">
+                        <div class="price-head">
+                          <h2>Business</h2>
+                          <p>$50/<span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                          <ul>
+                            <li><i class="fa fa-check-circle"></i>20GB Space</li>
+                            <li><i class="fa fa-check-circle"></i>200GB Bandwidth</li>
+                            <li><i class="fa fa-check-circle"></i>50 Email Account</li>
+                            <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                            <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                          </ul>
+                        </div>
+                        <div class="price-button">
+                          <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="single-price">
+                        <div class="price-head">
+                          <h2>Advanced</h2>
+                          <p>$100/<span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                          <ul>
+                            <li><i class="fa fa-check-circle"></i>50GB Space</li>
+                            <li><i class="fa fa-check-circle"></i>Unlimited Bandwidth</li>
+                            <li><i class="fa fa-check-circle"></i>Unlimited Email Acc.</li>
+                            <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                            <li><i class="fa fa-check-circle"></i>Unlimited Support</li>
+                          </ul>
+                        </div>
+                        <div class="price-button">
+                          <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </section>
+          <!--testimonials-->
+          <section id="testimonials">
+            <div class="container">
+              <h1>Testimonials</h1>
+              <p class="text-center">The followings are the feedback given by the high professionals.</p>
+              <div class="row">
+                <div class="col-md-4 text-center">
+                  <div class="profile">
+                    <img src="user1.jpg" class="user">
+                    <blockquote><i class="fa fa-quote-left"></i> A B2C company, Salemtown Board Co. was started by two brothers with great passion.A B2C company, Salemtown Board Co. was started by two brothers with great passion.<i class="fa fa-quote-right"></i></blockquote>
+                    <h3>Bill Gates <span>Founder of Windows</span></h3>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                      <img src="user2.jpg" class="user">
+                      <blockquote><i class="fa fa-quote-left"></i> A B2C company, Salemtown Board Co. was started by two brothers with great passion.A B2C company, Salemtown Board Co. was started by two brothers with great passion.<i class="fa fa-quote-right"></i></blockquote>
+                      <h3>Mark Zuckerburg <span>Founder of Facebook</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                      <img src="user3.jpg" class="user">
+                      <blockquote><i class="fa fa-quote-left"></i> A B2C company, Salemtown Board Co. was started by two brothers with great passion.A B2C company, Salemtown Board Co. was started by two brothers with great passion.<i class="fa fa-quote-right"></i></blockquote>
+                      <h3>Sudha Murthy <span>Chairperson of Infosys</span></h3>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--get in touch-->
+          <section id="contact">
+            <div class="container">
+              <h1>Get In Touch</h1>
+              <div class="row">
+                <div class="col-md-6">
+                  <form class="contact-form">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Your-Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="Phone-Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email-Id">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                  </form>
+                </div>
+                <div class="col-md-6 contact-info">
+                  <div class="follow"><b>Address: </b><i class="fa fa-map-marker"></i> XYZ Road,Banglore, IN</div>
+                  <div class="follow"><b>Phone: </b><i class="fa fa-phone"></i> +1 1234567890</div>
+                  <div class="follow"><b>Email: </b><i class="fa fa-envelope-o"></i> example@website.com</div>
+                  <div class="follow"><label></label><b>Get Social: </b></label>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </section>
+          <!--footer-->
+          <section id="footer">
+            <div class="container text-center">
+              <p><i class="fa fa-heart-o"></i> Thank You</p>
+            </div>
+          </section>
+          <!--footer end-->
+          <script src="js/smooth-scroll.js"></script>
+          <script>
+              var scroll = new SmoothScroll('a[href*="#"]');
+          </script>
+</body>
+</html>
